@@ -1,0 +1,1898 @@
+[
+  {
+    "title": "Основные блюда",
+    "group": "kitchen",
+    "items": [
+      {
+        "title": "Скумбрия запеченная с картофелем и соусом ремулад",
+        "price": "990",
+        "size": "600 г",
+        "photo": "/photos/menu-31-0.webp"
+      },
+      {
+        "title": "Дорадо с соусом карри",
+        "price": "1350",
+        "size": "480 г",
+        "photo": "/photos/menu-31-1.webp"
+      },
+      {
+        "title": "Щеки говяжьи с пюре и шпинатом",
+        "price": "950",
+        "size": "430 г",
+        "photo": "/photos/menu-31-2.webp"
+      },
+      {
+        "title": "Свиные ребра в соусе на выбор",
+        "price": "1200",
+        "size": "480 г",
+        "photo": ""
+      },
+      {
+        "title": "Говядина тушеная с зеленой гречкой",
+        "price": "820",
+        "size": "315 г",
+        "photo": ""
+      },
+      {
+        "title": "Бифштекс из говядины с соусом из белых грибов",
+        "price": "1250",
+        "size": "335 г",
+        "photo": ""
+      },
+      {
+        "title": "Бефстроганов из говядины",
+        "price": "920",
+        "size": "315 г",
+        "photo": ""
+      },
+      {
+        "title": "Цыплёнок в травах с печёным картофелем",
+        "price": "1100",
+        "size": "430 г",
+        "photo": ""
+      },
+      {
+        "title": "Утиная ножка с морковным пюре и яблочным чатни",
+        "price": "1100",
+        "size": "315 г",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Горячие закуски",
+    "group": "kitchen",
+    "items": [
+      {
+        "title": "Хрустящие креветки с яблочным ткемали",
+        "price": "720",
+        "size": "200 г",
+        "photo": "/photos/dish-0.jpg"
+      },
+      {
+        "title": "Мидии в створках в соусе на выбор",
+        "price": "1100",
+        "size": "360 г",
+        "photo": "/photos/menu-27-1.webp"
+      },
+      {
+        "title": "Соте из морепродуктов",
+        "price": "1350",
+        "size": "520 г",
+        "photo": "/photos/dish-5.jpg"
+      },
+      {
+        "title": "Камамбер запеченный с черри и оливками",
+        "price": "1200",
+        "size": "360 г",
+        "photo": "/photos/dish-1.jpg"
+      },
+      {
+        "title": "Жареный сыр халуми со шпинатом",
+        "price": "920",
+        "size": "250 г",
+        "photo": "/photos/dish-4.jpg"
+      },
+      {
+        "title": "Креветки в сырном соусе",
+        "price": "1100",
+        "size": "260 г",
+        "photo": "/photos/dish-3.jpg"
+      },
+      {
+        "title": "Рапаны черноморские в соусе на выбор",
+        "price": "1100",
+        "size": "240 г",
+        "photo": "/photos/dish-2.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Холодные закуски",
+    "group": "kitchen",
+    "items": [
+      {
+        "title": "Устрица",
+        "price": "350",
+        "size": "1 шт.",
+        "photo": "/photos/menu-28-0.webp"
+      },
+      {
+        "title": "Ростбиф",
+        "price": "610",
+        "size": "100 г",
+        "photo": "/photos/menu-28-1.webp"
+      },
+      {
+        "title": "Антипасти сыров",
+        "price": "1300",
+        "size": "220 г",
+        "photo": "/photos/menu-28-2.webp"
+      },
+      {
+        "title": "Лосось слабой соли",
+        "price": "890",
+        "size": "120 г",
+        "photo": ""
+      },
+      {
+        "title": "Брускетты с лососем и авокадо",
+        "price": "810",
+        "size": "185 г",
+        "photo": ""
+      },
+      {
+        "title": "Тартар из тунца с креветочными чипсами",
+        "price": "790",
+        "size": "170 г",
+        "photo": ""
+      },
+      {
+        "title": "Антипасти колбас",
+        "price": "1440",
+        "size": "225 г",
+        "photo": ""
+      },
+      {
+        "title": "Тартар из говядины",
+        "price": "910",
+        "size": "170 г",
+        "photo": ""
+      },
+      {
+        "title": "Брускетты с ростбифом",
+        "price": "720",
+        "size": "170 г",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Стейки",
+    "group": "kitchen",
+    "items": [
+      {
+        "title": "Стейк лосось",
+        "price": "990",
+        "size": "100 г",
+        "photo": "/photos/menu-22-0.webp"
+      },
+      {
+        "title": "Филе Миньон",
+        "price": "1100",
+        "size": "100 г",
+        "photo": "/photos/menu-22-1.webp"
+      },
+      {
+        "title": "Рибай",
+        "price": "1400",
+        "size": "100 г",
+        "photo": "/photos/menu-22-2.webp"
+      },
+      {
+        "title": "Стриплойн",
+        "price": "1400",
+        "size": "100 г",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Салаты",
+    "group": "kitchen",
+    "items": [
+      {
+        "title": "Салат с баклажаном",
+        "price": "650",
+        "size": "280 г",
+        "photo": "/photos/menu-3-0.webp"
+      },
+      {
+        "title": "Салат с креветкой",
+        "price": "950",
+        "size": "250 г",
+        "photo": "/photos/menu-3-1.webp"
+      },
+      {
+        "title": "Салат с ростбифом и печёными овощами",
+        "price": "850",
+        "size": "350 г",
+        "photo": "/photos/menu-3-2.webp"
+      },
+      {
+        "title": "Салат Греческий",
+        "price": "650",
+        "size": "300 г",
+        "photo": ""
+      },
+      {
+        "title": "Салат с печёной свёклой и сыром дор блю",
+        "price": "720",
+        "size": "300 г",
+        "photo": ""
+      },
+      {
+        "title": "Салат с уткой и сезонными ягодами/фруктами",
+        "price": "890",
+        "size": "225 г",
+        "photo": ""
+      },
+      {
+        "title": "Стейк салат с тунцом",
+        "price": "890",
+        "size": "330 г",
+        "photo": ""
+      },
+      {
+        "title": "Салат с морепродуктами",
+        "price": "950",
+        "size": "270 г",
+        "photo": ""
+      },
+      {
+        "title": "Салат Цезарь с лососем и каперсами",
+        "price": "810",
+        "size": "305 г",
+        "photo": ""
+      },
+      {
+        "title": "Салат с угрем",
+        "price": "950",
+        "size": "290 г",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Супы",
+    "group": "kitchen",
+    "items": [
+      {
+        "title": "Том ям",
+        "price": "790",
+        "size": "490 г",
+        "photo": "/photos/menu-6-0.webp"
+      },
+      {
+        "title": "Бульон куриный",
+        "price": "490",
+        "size": "335 г",
+        "photo": "/photos/menu-6-1.webp"
+      },
+      {
+        "title": "Сырный суп",
+        "price": "790",
+        "size": "440 г",
+        "photo": "/photos/menu-6-2.webp"
+      },
+      {
+        "title": "Д'АШЕР'АК",
+        "price": "790",
+        "size": "840 г",
+        "photo": ""
+      },
+      {
+        "title": "Уха с лососем и треской",
+        "price": "790",
+        "size": "450 г",
+        "photo": ""
+      },
+      {
+        "title": "Борщ",
+        "price": "650",
+        "size": "300 г",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Паста",
+    "group": "kitchen",
+    "items": [
+      {
+        "title": "Закрытая паста с томлёной говядиной",
+        "price": "890",
+        "size": "490 г",
+        "photo": "/photos/menu-0-0.webp"
+      },
+      {
+        "title": "Удон с креветками",
+        "price": "690",
+        "size": "320 г",
+        "photo": "/photos/menu-0-1.webp"
+      },
+      {
+        "title": "Удон с курицей",
+        "price": "650",
+        "size": "330 г",
+        "photo": "/photos/menu-0-2.webp"
+      },
+      {
+        "title": "Паста Карбонара",
+        "price": "650",
+        "size": "300 г",
+        "photo": ""
+      },
+      {
+        "title": "Удон с телятиной",
+        "price": "690",
+        "size": "330 г",
+        "photo": ""
+      },
+      {
+        "title": "Паста с лососем брокколи и красной икрой",
+        "price": "890",
+        "size": "350 г",
+        "photo": ""
+      },
+      {
+        "title": "Фетучини с курицей и грибами",
+        "price": "670",
+        "size": "320 г",
+        "photo": ""
+      },
+      {
+        "title": "Фетучини с креветкой и шпинатом",
+        "price": "820",
+        "size": "330 г",
+        "photo": ""
+      },
+      {
+        "title": "Равиоли с креветками",
+        "price": "820",
+        "size": "330 г",
+        "photo": ""
+      },
+      {
+        "title": "Паста с лососем, брокколи и красной икрофй",
+        "price": "890",
+        "size": "350 г",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Пицца",
+    "group": "kitchen",
+    "items": [
+      {
+        "title": "Пицца 4 Сыра",
+        "price": "820",
+        "size": "490 г",
+        "photo": "/photos/menu-2-0.webp"
+      },
+      {
+        "title": "Пицца Карбонара new",
+        "price": "720",
+        "size": "540 г",
+        "photo": "/photos/menu-2-1.webp"
+      },
+      {
+        "title": "Пицца с креветкой, беконом и томатной сальсой",
+        "price": "850",
+        "size": "560 г",
+        "photo": "/photos/menu-2-2.webp"
+      },
+      {
+        "title": "Пицца копчёная",
+        "price": "850",
+        "size": "580 г",
+        "photo": ""
+      },
+      {
+        "title": "Пицца пепперони с халапеньо",
+        "price": "690",
+        "size": "490 г",
+        "photo": ""
+      },
+      {
+        "title": "Фокачча с моцареллой",
+        "price": "520",
+        "size": "415 г",
+        "photo": ""
+      },
+      {
+        "title": "Пицца Маргарита new",
+        "price": "620",
+        "size": "470 г",
+        "photo": ""
+      },
+      {
+        "title": "Пицца с говядиной и опятами",
+        "price": "990",
+        "size": "570 г",
+        "photo": ""
+      },
+      {
+        "title": "Пицца с грушей и дор блю",
+        "price": "930",
+        "size": "550 г",
+        "photo": ""
+      },
+      {
+        "title": "Пицца с курицей и грибами",
+        "price": "790",
+        "size": "580 г",
+        "photo": ""
+      },
+      {
+        "title": "Пицца Цезарь new",
+        "price": "820",
+        "size": "690 г",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Роллы",
+    "group": "kitchen",
+    "items": [
+      {
+        "title": "Филадельфия с угрем",
+        "price": "990",
+        "size": "305 г",
+        "photo": "/photos/menu-1-0.webp"
+      },
+      {
+        "title": "Филадельфия с лососем",
+        "price": "990",
+        "size": "320 г",
+        "photo": "/photos/menu-1-1.webp"
+      },
+      {
+        "title": "Чёрный дракон",
+        "price": "1100",
+        "size": "400 г",
+        "photo": "/photos/menu-1-2.webp"
+      },
+      {
+        "title": "Ролл Маки",
+        "price": "310",
+        "size": "160 г",
+        "photo": ""
+      },
+      {
+        "title": "Ролл с лососем и красной икрой",
+        "price": "1100",
+        "size": "400 г",
+        "photo": ""
+      },
+      {
+        "title": "Футомаки с креветкой",
+        "price": "720",
+        "size": "315 г",
+        "photo": ""
+      },
+      {
+        "title": "Жаренный ролл",
+        "price": "710",
+        "size": "340 г",
+        "photo": ""
+      },
+      {
+        "title": "Футомаки с лососем и тунцом спайси",
+        "price": "990",
+        "size": "410 г",
+        "photo": ""
+      },
+      {
+        "title": "Запеченный Ролл с лососем",
+        "price": "920",
+        "size": "350 г",
+        "photo": ""
+      },
+      {
+        "title": "Калифорния с креветкой",
+        "price": "750",
+        "size": "270 г",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Гарниры",
+    "group": "kitchen",
+    "items": [
+      {
+        "title": "Картофель печёный",
+        "price": "450",
+        "size": "150 г",
+        "photo": "/photos/menu-8-0.webp"
+      },
+      {
+        "title": "Печёные овощи",
+        "price": "440",
+        "size": "170 г",
+        "photo": "/photos/menu-8-1.webp"
+      },
+      {
+        "title": "Пюре картофельное",
+        "price": "350",
+        "size": "170 г",
+        "photo": "/photos/menu-8-2.webp"
+      },
+      {
+        "title": "Рис",
+        "price": "390",
+        "size": "150 г",
+        "photo": ""
+      },
+      {
+        "title": "Каре баранины",
+        "price": "1100",
+        "size": "100 г",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Авторские коктейли",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Грушевая палома",
+        "price": "680",
+        "size": "400 мл",
+        "photo": ""
+      },
+      {
+        "title": "Сеньор гарсия",
+        "price": "690",
+        "size": "400 мл",
+        "photo": ""
+      },
+      {
+        "title": "Экзотик белини",
+        "price": "650",
+        "size": "420 мл",
+        "photo": ""
+      },
+      {
+        "title": "Олимпус",
+        "price": "630",
+        "size": "420 мл",
+        "photo": ""
+      },
+      {
+        "title": "Дживс",
+        "price": "650",
+        "size": "400 мл",
+        "photo": ""
+      },
+      {
+        "title": "Мэри Клэр",
+        "price": "750",
+        "size": "450 мл",
+        "photo": ""
+      },
+      {
+        "title": "Любимое чёрное море",
+        "price": "690",
+        "size": "420 мл",
+        "photo": ""
+      },
+      {
+        "title": "Гранатовый Тини",
+        "price": "750",
+        "size": "190 мл",
+        "photo": ""
+      },
+      {
+        "title": "Martini Fiero & Tonic",
+        "price": "620",
+        "size": "450 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Классические коктейли",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Май Тай",
+        "price": "680",
+        "size": "300 мл",
+        "photo": ""
+      },
+      {
+        "title": "Зомби",
+        "price": "830",
+        "size": "400 мл",
+        "photo": ""
+      },
+      {
+        "title": "Лонг айленд айс ти",
+        "price": "790",
+        "size": "400 мл",
+        "photo": ""
+      },
+      {
+        "title": "Пина колада",
+        "price": "730",
+        "size": "400 мл",
+        "photo": ""
+      },
+      {
+        "title": "Мохито",
+        "price": "570",
+        "size": "400 мл",
+        "photo": ""
+      },
+      {
+        "title": "Маргарита",
+        "price": "770",
+        "size": "150 мл",
+        "photo": ""
+      },
+      {
+        "title": "Негрони",
+        "price": "680",
+        "size": "250 мл",
+        "photo": ""
+      },
+      {
+        "title": "Виски сауэр",
+        "price": "580",
+        "size": "250 мл",
+        "photo": ""
+      },
+      {
+        "title": "Кловер клаб",
+        "price": "510",
+        "size": "130 мл",
+        "photo": ""
+      },
+      {
+        "title": "Апероль",
+        "price": "650",
+        "size": "400 мл",
+        "photo": ""
+      },
+      {
+        "title": "Белый русский",
+        "price": "550",
+        "size": "150 мл",
+        "photo": ""
+      },
+      {
+        "title": "Кровь и песок",
+        "price": "690",
+        "size": "300 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Безалкогольные коктейли",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Love is",
+        "price": "490",
+        "size": "400 мл",
+        "photo": ""
+      },
+      {
+        "title": "Гранат-бузина",
+        "price": "490",
+        "size": "400 мл",
+        "photo": ""
+      },
+      {
+        "title": "Мохито Стевия/Сахар",
+        "price": "490",
+        "size": "400 мл",
+        "photo": ""
+      },
+      {
+        "title": "Грейпфрутовый кофероль",
+        "price": "490",
+        "size": "400 мл",
+        "photo": ""
+      },
+      {
+        "title": "Маракуйя-ананас",
+        "price": "490",
+        "size": "400 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Лимонады",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Цитрус",
+        "price": "390",
+        "size": "400 мл",
+        "photo": ""
+      },
+      {
+        "title": "Апероль",
+        "price": "390",
+        "size": "400 мл",
+        "photo": ""
+      },
+      {
+        "title": "Барбарис",
+        "price": "390",
+        "size": "400 мл",
+        "photo": ""
+      },
+      {
+        "title": "Клюквенный",
+        "price": "390",
+        "size": "400 мл",
+        "photo": ""
+      },
+      {
+        "title": "Грейпфрут-груша",
+        "price": "390",
+        "size": "400 мл",
+        "photo": ""
+      },
+      {
+        "title": "Вишня с ежевикой",
+        "price": "390",
+        "size": "400 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Десерты",
+    "group": "dessert",
+    "items": [
+      {
+        "title": "Профитроли",
+        "price": "590",
+        "size": "140 г",
+        "photo": "/photos/menu-4-0.webp"
+      },
+      {
+        "title": "Десерт фондан",
+        "price": "670",
+        "size": "170 г",
+        "photo": "/photos/menu-4-1.webp"
+      },
+      {
+        "title": "Паннакоттик из фермерских сливок",
+        "price": "620",
+        "size": "180 г",
+        "photo": "/photos/menu-4-2.webp"
+      },
+      {
+        "title": "Monterra",
+        "price": "290",
+        "size": "50 г",
+        "photo": ""
+      },
+      {
+        "title": "Медовик",
+        "price": "690",
+        "size": "180 г",
+        "photo": ""
+      },
+      {
+        "title": "Морковный торт веган",
+        "price": "590",
+        "size": "180 г",
+        "photo": ""
+      },
+      {
+        "title": "Десерт Наполеон",
+        "price": "620",
+        "size": "220 г",
+        "photo": ""
+      },
+      {
+        "title": "Трайфл",
+        "price": "690",
+        "size": "200 г",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Пиво",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Лагер Medooza",
+        "price": "330",
+        "size": "330 мл",
+        "photo": ""
+      },
+      {
+        "title": "Бланш Medooza",
+        "price": "330",
+        "size": "330 мл",
+        "photo": ""
+      },
+      {
+        "title": "Blanche de Bruxelles",
+        "price": "690",
+        "size": "500 мл",
+        "photo": ""
+      },
+      {
+        "title": "Guinness",
+        "price": "690",
+        "size": "440 мл",
+        "photo": ""
+      },
+      {
+        "title": "Corona Extra",
+        "price": "490",
+        "size": "355 мл",
+        "photo": ""
+      },
+      {
+        "title": "Clausthaler 0 %",
+        "price": "450",
+        "size": "330 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Вермуты",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Martini Fiero",
+        "price": "280",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Martini Bianco",
+        "price": "280",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Martini Rosso",
+        "price": "280",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Martini Extra Dry",
+        "price": "280",
+        "size": "50 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Текила",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Jose Cuervo Silver",
+        "price": "580",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Jose Cuervo Gold",
+        "price": "580",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Espolon Reposado 100 / Agave",
+        "price": "720",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Espolon Blanco 100 / Agave",
+        "price": "670",
+        "size": "50 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Ром",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Havana Club Anejo 3 Anos",
+        "price": "370",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Havana Club Anejo 7 Anos",
+        "price": "410",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Havana Club Anejo Especial",
+        "price": "410",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Bacardi OAKHEART",
+        "price": "450",
+        "size": "50 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Газированные напитки",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Кола",
+        "price": "280",
+        "size": "330 мл",
+        "photo": ""
+      },
+      {
+        "title": "Спрайт",
+        "price": "280",
+        "size": "330 мл",
+        "photo": ""
+      },
+      {
+        "title": "Фанта",
+        "price": "280",
+        "size": "330 мл",
+        "photo": ""
+      },
+      {
+        "title": "Тоник Evervess",
+        "price": "280",
+        "size": "250 мл",
+        "photo": ""
+      },
+      {
+        "title": "Red Bull",
+        "price": "390",
+        "size": "250 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Молочные коктейли",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Милкшейк Oreo",
+        "price": "500",
+        "size": "450 мл",
+        "photo": ""
+      },
+      {
+        "title": "Милкшейк Малина-Бана",
+        "price": "450",
+        "size": "450 мл",
+        "photo": ""
+      },
+      {
+        "title": "Милкшейк Классический",
+        "price": "450",
+        "size": "450 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Кофе",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Эспрессо",
+        "price": "180",
+        "size": "30 мл",
+        "photo": ""
+      },
+      {
+        "title": "Американо",
+        "price": "180",
+        "size": "90 мл",
+        "photo": ""
+      },
+      {
+        "title": "Допио",
+        "price": "300",
+        "size": "60 мл",
+        "photo": ""
+      },
+      {
+        "title": "Капучино",
+        "price": "310",
+        "size": "350 мл",
+        "photo": ""
+      },
+      {
+        "title": "Капучино на растительном молоке",
+        "price": "360",
+        "size": "350 мл",
+        "photo": ""
+      },
+      {
+        "title": "Латте Макиатто",
+        "price": "310",
+        "size": "350 мл",
+        "photo": ""
+      },
+      {
+        "title": "Латте на растительном молоке",
+        "price": "360",
+        "size": "350 мл",
+        "photo": ""
+      },
+      {
+        "title": "Раф",
+        "price": "310",
+        "size": "300 мл",
+        "photo": ""
+      },
+      {
+        "title": "Какао с маршмелоу",
+        "price": "290",
+        "size": "300 мл",
+        "photo": ""
+      },
+      {
+        "title": "Матча латте",
+        "price": "320",
+        "size": "350 мл",
+        "photo": ""
+      },
+      {
+        "title": "Матча латте на растительном молоке",
+        "price": "320",
+        "size": "350 мл",
+        "photo": ""
+      },
+      {
+        "title": "Хорнет",
+        "price": "470",
+        "size": "400 мл",
+        "photo": ""
+      },
+      {
+        "title": "Флэт Уайт",
+        "price": "390",
+        "size": "350 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Свежевыжатые соки",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Апельсин",
+        "price": "370",
+        "size": "200 мл",
+        "photo": ""
+      },
+      {
+        "title": "Яблоко",
+        "price": "370",
+        "size": "200 мл",
+        "photo": ""
+      },
+      {
+        "title": "Грейпфрут",
+        "price": "370",
+        "size": "200 мл",
+        "photo": ""
+      },
+      {
+        "title": "Сельдерей",
+        "price": "370",
+        "size": "200 мл",
+        "photo": ""
+      },
+      {
+        "title": "Морковь",
+        "price": "370",
+        "size": "200 мл",
+        "photo": ""
+      },
+      {
+        "title": "Ананас",
+        "price": "700",
+        "size": "200 мл",
+        "photo": ""
+      },
+      {
+        "title": "Гранат",
+        "price": "700",
+        "size": "200 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Сок",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Апельсин",
+        "price": "240",
+        "size": "200 мл",
+        "photo": ""
+      },
+      {
+        "title": "Ананас",
+        "price": "240",
+        "size": "200 мл",
+        "photo": ""
+      },
+      {
+        "title": "Томат",
+        "price": "240",
+        "size": "200 мл",
+        "photo": ""
+      },
+      {
+        "title": "Яблоко",
+        "price": "240",
+        "size": "200 мл",
+        "photo": ""
+      },
+      {
+        "title": "Вишня",
+        "price": "240",
+        "size": "200 мл",
+        "photo": ""
+      },
+      {
+        "title": "Грейпфрут",
+        "price": "240",
+        "size": "200 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Минеральная вода",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Байкал Резерв газированная",
+        "price": "290",
+        "size": "250 мл",
+        "photo": ""
+      },
+      {
+        "title": "Жемчужина байкала без газа",
+        "price": "290",
+        "size": "250 мл",
+        "photo": ""
+      },
+      {
+        "title": "Mever газированная",
+        "price": "420",
+        "size": "500 мл",
+        "photo": ""
+      },
+      {
+        "title": "Mever без газа",
+        "price": "420",
+        "size": "500 мл",
+        "photo": ""
+      },
+      {
+        "title": "Боржоми",
+        "price": "340",
+        "size": "500 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Джин",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Citadelle",
+        "price": "520",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Barrister",
+        "price": "310",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "BEE GIN Flavoured",
+        "price": "310",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Bombay Sapphire",
+        "price": "550",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Hoppers original",
+        "price": "320",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Hoppers Lavender & Thyme",
+        "price": "320",
+        "size": "50 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Водка",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Царская Оригинал",
+        "price": "270",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Царская Золотая",
+        "price": "290",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "MAMONT",
+        "price": "390",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Чистые росы",
+        "price": "390",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Mont Blanc",
+        "price": "390",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "ОНЕГИН",
+        "price": "380",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Коктебель Граппа Резерв",
+        "price": "350",
+        "size": "50 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Фирменные чаи",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Чай Клюквенный с мятой",
+        "price": "450",
+        "size": "700 мл",
+        "photo": ""
+      },
+      {
+        "title": "Чай Облепиховый",
+        "price": "450",
+        "size": "700 мл",
+        "photo": ""
+      },
+      {
+        "title": "Чай Марокканский",
+        "price": "450",
+        "size": "700 мл",
+        "photo": ""
+      },
+      {
+        "title": "Чай Барбарисовый жасмин",
+        "price": "450",
+        "size": "700 мл",
+        "photo": ""
+      },
+      {
+        "title": "Чай Травяной с манго",
+        "price": "450",
+        "size": "700 мл",
+        "photo": ""
+      },
+      {
+        "title": "Чай Цитрусовая маракуя",
+        "price": "450",
+        "size": "700 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Чай в чайнике",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Эрл Грей",
+        "price": "350",
+        "size": "700 мл",
+        "photo": ""
+      },
+      {
+        "title": "Ассам",
+        "price": "350",
+        "size": "700 мл",
+        "photo": ""
+      },
+      {
+        "title": "Сенча",
+        "price": "350",
+        "size": "700 мл",
+        "photo": ""
+      },
+      {
+        "title": "Жасминовый",
+        "price": "350",
+        "size": "700 мл",
+        "photo": ""
+      },
+      {
+        "title": "Молочный Улун",
+        "price": "350",
+        "size": "700 мл",
+        "photo": ""
+      },
+      {
+        "title": "Наглый Фрукт",
+        "price": "350",
+        "size": "700 мл",
+        "photo": ""
+      },
+      {
+        "title": "Крымский сбор",
+        "price": "350",
+        "size": "700 мл",
+        "photo": ""
+      },
+      {
+        "title": "Саусеп",
+        "price": "350",
+        "size": "700 мл",
+        "photo": ""
+      },
+      {
+        "title": "Да Хун Пао",
+        "price": "350",
+        "size": "700 мл",
+        "photo": ""
+      },
+      {
+        "title": "Те Гуань Инь",
+        "price": "350",
+        "size": "700 мл",
+        "photo": ""
+      },
+      {
+        "title": "Пуэр",
+        "price": "350",
+        "size": "700 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Согревающие напитки",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Глиннтвейн",
+        "price": "450",
+        "size": "350 мл",
+        "photo": ""
+      },
+      {
+        "title": "Глинтвейн ванильный",
+        "price": "450",
+        "size": "350 мл",
+        "photo": ""
+      },
+      {
+        "title": "Чешский чай",
+        "price": "540",
+        "size": "350 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Виски Ирландия",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Tullamore D.E.W",
+        "price": "500",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Natterjack",
+        "price": "590",
+        "size": "50 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Виски Шотландия",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Dewar's White Label",
+        "price": "520",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Dewar's Caribean smooth 8 y.o.",
+        "price": "520",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Ballantines",
+        "price": "560",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Monkey Shoulder",
+        "price": "590",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Chivas Regal 12 y.o.",
+        "price": "650",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Auchentoshan American OAK",
+        "price": "720",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Auchentoshan 12 y.o.",
+        "price": "820",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Glenfiddich 12 y.o.",
+        "price": "840",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Glenmorangie 10 y.o.",
+        "price": "750",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Glenlivet 12 y.o.",
+        "price": "950",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Highland Park 12 y.o",
+        "price": "900",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Talisker 10 y.o.",
+        "price": "860",
+        "size": "50 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Игристые Вина",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Z.B. Frizzante белое сухое",
+        "price": "440",
+        "size": "150 мл",
+        "photo": ""
+      },
+      {
+        "title": "Z.B. Frizzante розовое полусухое",
+        "price": "2000",
+        "size": "750 мл",
+        "photo": ""
+      },
+      {
+        "title": "Z.B. Moscato белое полусладкое",
+        "price": "2000",
+        "size": "750 мл",
+        "photo": ""
+      },
+      {
+        "title": "Z.B. Moscato розовое полусладкое",
+        "price": "2000",
+        "size": "750 мл",
+        "photo": ""
+      },
+      {
+        "title": "Балаклава Пино Нуар розовое брют",
+        "price": "2400",
+        "size": "750 мл",
+        "photo": ""
+      },
+      {
+        "title": "Балаклава Мускат белое полусладкое",
+        "price": "2200",
+        "size": "750 мл",
+        "photo": ""
+      },
+      {
+        "title": "Новый Свет выдержанное белое брют",
+        "price": "2500",
+        "size": "750 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Виски Америка",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Jack Daniels Tennessee",
+        "price": "590",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Jim Beam",
+        "price": "520",
+        "size": "50 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Вина Грузии",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Цинандали белое сухое",
+        "price": "490",
+        "size": "150 мл",
+        "photo": ""
+      },
+      {
+        "title": "Саперави красное сухое",
+        "price": "490",
+        "size": "150 мл",
+        "photo": ""
+      },
+      {
+        "title": "Алазанская Долина белое полусладкое",
+        "price": "480",
+        "size": "150 мл",
+        "photo": ""
+      },
+      {
+        "title": "Алазанская Долина красное полусладкое",
+        "price": "480",
+        "size": "150 мл",
+        "photo": ""
+      },
+      {
+        "title": "Киндзмараули красное полусладкое",
+        "price": "510",
+        "size": "150 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Ликеры/Настойки",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Becherovka",
+        "price": "470",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Jagermeister",
+        "price": "470",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Absinthe",
+        "price": "420",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Campari",
+        "price": "400",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Aperol",
+        "price": "420",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Sambuca",
+        "price": "500",
+        "size": "50 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Вина Крыма/России",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Инкерман SevRe Траминер белое сухое",
+        "price": "390",
+        "size": "150 мл",
+        "photo": ""
+      },
+      {
+        "title": "Инкерман WMS Рислинг белое полусухое",
+        "price": "450",
+        "size": "150 мл",
+        "photo": ""
+      },
+      {
+        "title": "Инкерман Каберне Гранд резерв красное сухое",
+        "price": "550",
+        "size": "150 мл",
+        "photo": ""
+      },
+      {
+        "title": "Валерий Захарьин Мускат Оттонель белое полусладкое",
+        "price": "590",
+        "size": "150 мл",
+        "photo": ""
+      },
+      {
+        "title": "Валерий Захарьин Мускат Оттонель белое сухое",
+        "price": "590",
+        "size": "150 мл",
+        "photo": ""
+      },
+      {
+        "title": "Валерий Захарьин Саперави-Каберне-Совиньон красное сухое",
+        "price": "590",
+        "size": "150 мл",
+        "photo": ""
+      },
+      {
+        "title": "Бельбек Рислинг белое полусухое.",
+        "price": "530",
+        "size": "150 мл",
+        "photo": ""
+      },
+      {
+        "title": "Бельбек Полусладкое белое",
+        "price": "510",
+        "size": "150 мл",
+        "photo": ""
+      },
+      {
+        "title": "Бельбек Мускат белое сухое",
+        "price": "530",
+        "size": "150 мл",
+        "photo": ""
+      },
+      {
+        "title": "Бельбек Пино Нуар красное сухое",
+        "price": "590",
+        "size": "150 мл",
+        "photo": ""
+      },
+      {
+        "title": "Бельбек Шираз красное п/сладкое",
+        "price": "530",
+        "size": "150 мл",
+        "photo": ""
+      },
+      {
+        "title": "Бельбек Меритаж красное сухое",
+        "price": "570",
+        "size": "150 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Импортные Вина",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Камден Парк Шардоне (Австралия) белое полусухое",
+        "price": "640",
+        "size": "150 мл",
+        "photo": ""
+      },
+      {
+        "title": "Паддл Крик Совиньон блан Мальборо (Нов. Зеландия) белое полусухое.",
+        "price": "840",
+        "size": "150 мл",
+        "photo": ""
+      },
+      {
+        "title": "Камден Парк Шираз (Австралия) красное полусухое",
+        "price": "640",
+        "size": "150 мл",
+        "photo": ""
+      },
+      {
+        "title": "Трапиче Мальбек (Аргентина, Мендоса) красное сухое",
+        "price": "660",
+        "size": "150 мл",
+        "photo": ""
+      },
+      {
+        "title": "Каза Дефра Пино гриджио (Италия, Венеция) белое полусухое",
+        "price": "610",
+        "size": "150 мл",
+        "photo": ""
+      },
+      {
+        "title": "Мелини Кьянти D.О.C.G. (Италия, Тоскана) красное сухое",
+        "price": "720",
+        "size": "150 мл",
+        "photo": ""
+      },
+      {
+        "title": "Ханс Баер Гевюритраминер (Германия) белое полусладкое",
+        "price": "750",
+        "size": "150 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Импортные Игристые Вина",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Nuviana Cava D.O. белое брют",
+        "price": "3200",
+        "size": "750 мл",
+        "photo": ""
+      },
+      {
+        "title": "Bruni Prosecco D.O.C. белое брют",
+        "price": "3500",
+        "size": "750 мл",
+        "photo": ""
+      },
+      {
+        "title": "Bruni Asti D.O.C.G. белое сладкое",
+        "price": "3500",
+        "size": "750 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Виск Ирландия",
+    "group": "bar",
+    "items": [
+      {
+        "title": "JAMESON",
+        "price": "620",
+        "size": "50 мл",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "title": "Коньяк/ Брэнди",
+    "group": "bar",
+    "items": [
+      {
+        "title": "Коктебель 5 лет",
+        "price": "350",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Коктебель 7 лет",
+        "price": "430",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Коктебель 11 лет",
+        "price": "490",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "АрАрАт 3 года",
+        "price": "450",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "АрАрАт 5 лет",
+        "price": "530",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Courvoisier V.S.",
+        "price": "850",
+        "size": "50 мл",
+        "photo": ""
+      },
+      {
+        "title": "Courvoisier V.S.O.P.",
+        "price": "970",
+        "size": "50 мл",
+        "photo": ""
+      }
+    ]
+  }
+]
