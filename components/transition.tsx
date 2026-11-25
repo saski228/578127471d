@@ -36,6 +36,8 @@ export function TransitionProvider({ children }: { children: ReactNode }) {
   const phaseRef = useRef<Phase>("idle");
   const timers = useRef<number[]>([]);
   const firstRender = useRef(true);
+  const pathRef = useRef(pathname);
+  pathRef.current = pathname;
 
   const change = (p: Phase) => {
     phaseRef.current = p;
@@ -67,13 +69,14 @@ export function TransitionProvider({ children }: { children: ReactNode }) {
       firstRender.current = false;
       return;
     }
+    if (!window.location.hash) window.scrollTo({ top: 0, behavior: "instant" });
     if (phaseRef.current === "cover") finish();
   }, [pathname, finish]);
 
   const go = useCallback(
     (href: string) => {
       const path = href.split(/[?#]/)[0] || "/";
-      if (path === window.location.pathname) return false;
+      if (path === pathRef.current) return false;
       if (phaseRef.current !== "idle") return true;
       if (window.matchMedia("(prefers-reduced-motion: reduce)").matches)
         return false;

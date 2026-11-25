@@ -2368,3 +2368,48 @@ footer {
     transition: none !important;
   }
 }
+
+/* ───────────── Отзывы ───────────── */
+.reviews { background: var(--night); border-top: 1px solid var(--line); }
+.rating-board { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: clamp(32px, 6vw, 110px); padding: clamp(28px, 4vw, 56px); border: 1px solid var(--line); background: var(--pane); position: relative; }
+.rating-board::before, .rating-board::after { content: ""; position: absolute; width: 38px; height: 38px; border: 3px solid var(--leaf); pointer-events: none; }
+.rating-board::before { top: -2px; left: -2px; border-right: 0; border-bottom: 0; }
+.rating-board::after { right: -2px; bottom: -2px; border-left: 0; border-top: 0; }
+.rating-main { display: grid; justify-items: start; align-content: center; gap: 14px; }
+.rating-num { font-family: var(--display); font-weight: 400; font-size: clamp(76px, 9vw, 140px); line-height: 0.95; }
+.stars { display: inline-flex; gap: 4px; color: var(--leaf); }
+.rating-main p { max-width: 30ch; line-height: 1.55; color: #cdd8cf; }
+.aspects h3 { margin-bottom: 18px; font-size: 13px; font-weight: 700; color: var(--mute); }
+.aspect { display: grid; grid-template-columns: minmax(110px, 160px) 1fr 44px; align-items: center; gap: 14px; padding: 9px 0; font-size: 14.5px; font-weight: 600; }
+.aspect i { display: block; height: 6px; background: var(--line); overflow: hidden; }
+.aspect u { display: block; height: 100%; width: var(--w); background: var(--leaf); box-shadow: 0 0 12px var(--leaf-glow); transform-origin: left; text-decoration: none; }
+html[data-stage] .rating-board:not([data-in]) .aspect u { transform: scaleX(0); }
+html[data-stage] .rating-board .aspect u { transition: transform 1.3s var(--ease-io); }
+html[data-stage] .rating-board .aspect:nth-of-type(2) u { transition-delay: .1s; }
+html[data-stage] .rating-board .aspect:nth-of-type(3) u { transition-delay: .2s; }
+html[data-stage] .rating-board .aspect:nth-of-type(4) u { transition-delay: .3s; }
+html[data-stage] .rating-board .aspect:nth-of-type(5) u { transition-delay: .4s; }
+html[data-stage] .rating-board .aspect:nth-of-type(6) u { transition-delay: .5s; }
+.aspect b { text-align: right; font-variant-numeric: tabular-nums; }
+.aspects small { display: block; margin-top: 14px; font-size: 12px; color: var(--mute); }
+
+/* ───────────── Карта, подсказки ───────────── */
+.map { margin-top: clamp(32px, 4vw, 56px); height: clamp(300px, 34vw, 440px); border: 1px solid var(--line); background: var(--night); }
+.map iframe { width: 100%; height: 100%; border: 0; filter: grayscale(.35) contrast(1.02) brightness(.92); }
+.contact-grid .hint { margin-top: 12px; }
+.dish-info { flex: 1; max-width: none; }
+.dish-price { margin-left: auto; }
+
+/* ───────────── Нижняя панель на телефоне ───────────── */
+.mbar { display: none; }
+@media (max-width: 800px) {
+  .mbar { position: fixed; z-index: 45; left: 12px; right: 12px; bottom: max(12px, env(safe-area-inset-bottom)); display: grid; grid-template-columns: repeat(3, 1fr); background: rgba(18, 26, 22, .92); backdrop-filter: blur(14px); border: 1px solid var(--line); box-shadow: 0 14px 40px rgba(0,0,0,.5); translate: 0 160%; transition: translate .6s var(--ease); }
+  .mbar[data-show] { translate: 0 0; }
+  .mbar a, .mbar button { display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 54px; font-size: 13px; font-weight: 700; }
+  .mbar > * + * { border-left: 1px solid var(--line); }
+  .mbar svg { color: var(--leaf); }
+  footer { padding-bottom: 76px; }
+  .rating-board { grid-template-columns: minmax(0, 1fr); }
+  .aspect { grid-template-columns: 1fr 44px; row-gap: 6px; }
+  .aspect i { grid-column: 1 / -1; grid-row: 2; }
+}

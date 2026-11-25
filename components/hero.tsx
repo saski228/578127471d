@@ -1,16 +1,17 @@
 "use client";
 
 import { useState, type CSSProperties } from "react";
-import Image from "next/image";
+import { Img as Image } from "./img";
 import { ArrowDown, ArrowLeft, ArrowRight, MapPin, Star } from "lucide-react";
-import { photos, venue } from "@/lib/restaurant";
+import type { Photo } from "@/lib/types";
+import { useSite } from "./site-context";
 import { BookingButton } from "./booking";
 import { LogoLockup } from "./logo";
 import { OpenNow } from "./open-status";
 
-const SLIDES = photos.slice(0, 3);
-
-export function Hero() {
+export function Hero({ photos }: { photos: Photo[] }) {
+  const { s, t } = useSite();
+  const SLIDES = photos.slice(0, 3);
   const [state, setState] = useState({ cur: 0, prev: -1, moved: false });
   const [paused, setPaused] = useState(false);
   const go = (to: number) =>
@@ -62,8 +63,7 @@ export function Hero() {
             <LogoLockup animated />
           </h1>
           <p className="hero-lead hero-in" style={{ "--n": 0 } as CSSProperties}>
-            Ресторан на крыше. Авторская кухня, живая зелень и панорамный вид
-            на город с высоты четвёртого этажа.
+            {t.heroLead}
           </p>
           <div className="hero-actions hero-in" style={{ "--n": 1 } as CSSProperties}>
             <BookingButton />
@@ -76,19 +76,19 @@ export function Hero() {
 
       <div className="shell hero-foot hero-in" style={{ "--n": 2 } as CSSProperties}>
         <div className="hero-meta">
-          <a href={venue.maps} target="_blank" rel="noreferrer">
+          <a href={s.mapsUrl} target="_blank" rel="noreferrer">
             <MapPin size={15} />
-            {venue.address}
+            {s.address}
           </a>
           <span className="meta-sep" />
           <a
             className="rating"
-            href={`${venue.maps}reviews/`}
+            href={s.reviewsUrl}
             target="_blank"
             rel="noreferrer"
           >
             <Star size={14} fill="currentColor" />
-            <b>4,9</b> Яндекс Карты
+            <b>{s.ratingValue}</b> Яндекс Карты
           </a>
           <span className="meta-sep" />
           <OpenNow />

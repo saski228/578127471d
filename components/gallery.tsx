@@ -1,14 +1,16 @@
 "use client";
 
 import { useRef, useState, type CSSProperties } from "react";
-import Image from "next/image";
+import { Img as Image } from "./img";
 import { ArrowLeft, ArrowRight, ArrowUpRight, Maximize2 } from "lucide-react";
-import { photos, venue } from "@/lib/restaurant";
+import type { Photo } from "@/lib/types";
+import { useSite } from "./site-context";
 import { Bracket } from "./brand";
 import { Modal } from "./modal";
 import { Reveal, Rise } from "./reveal";
 
-export function Gallery() {
+export function Gallery({ photos }: { photos: Photo[] }) {
+  const { s } = useSite();
   const [active, setActive] = useState<number | null>(null);
   const [hot, setHot] = useState(0);
   const [dir, setDir] = useState(1);
@@ -29,11 +31,11 @@ export function Gallery() {
           </div>
           <a
             className="text-link"
-            href={venue.tour}
+            href={s.panoramaUrl}
             target="_blank"
             rel="noreferrer"
           >
-            3D-тур от 360px <ArrowUpRight size={16} />
+            Панорама на Яндекс Картах <ArrowUpRight size={16} />
           </a>
         </div>
         <Reveal variant="wipe" className="strip" onMouseLeave={() => setHot(0)}>

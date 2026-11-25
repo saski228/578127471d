@@ -8,7 +8,7 @@ import {
   useState,
   type CSSProperties,
 } from "react";
-import Image from "next/image";
+import { Img as Image } from "./img";
 import {
   ArrowUpRight,
   Check,
@@ -21,24 +21,18 @@ import {
   Search,
   X,
 } from "lucide-react";
-import data from "@/lib/menu-data.json";
-import {
-  families,
-  menuSections,
-  titleFix,
-  venue,
-  type MenuSection,
-} from "@/lib/restaurant";
+import { menuSections, type MenuSection } from "@/lib/restaurant";
+import { dateRu } from "@/lib/content";
+import type { Category, Item } from "@/lib/types";
 import { Bracket } from "./brand";
 import { Modal } from "./modal";
 import { useBooking } from "./booking";
 
-type Item = (typeof data)[number]["items"][number];
 type Pick = { key: string; title: string; size: string; price: number; qty: number };
 
 const rub = (n: number | string) => `${Number(n).toLocaleString("ru-RU")} ₽`;
 const norm = (s: string) => s.toLocaleLowerCase("ru").replaceAll("ё", "е").trim();
-const fix = (t: string) => titleFix[t] ?? t;
+const fix = (t: string) => t;
 const slug = (t: string) => `cat-${t.replace(/[^\p{L}\p{N}]+/gu, "-")}`;
 const plural = (n: number, a: string, b: string, c: string) =>
   n % 10 === 1 && n % 100 !== 11
@@ -47,8 +41,18 @@ const plural = (n: number, a: string, b: string, c: string) =>
       ? b
       : c;
 
-export function MenuCatalog({ initial }: { initial: MenuSection }) {
-  const [group, setGroup] = useState<MenuSection>(initial);
+export function MenuCatalog({
+  cats: allCats, note, updated, deliveryUrl,
+}: { cats: Category[]; note: string; updated: string; deliveryUrl: string }) {
+  const [group, setGroup] = useState<MenuSection>("kitchen");
+  useEffect(() => {
+    const q = new URLSearchParams(window.location.search).get("section");
+    if (q === "bar" || q === "dessert") setGroup(q);
+  }, []);
+  const data = useMemo(
+    () => allCats.filter((c) => !c.hidden).map((c) => ({ ...c, group: c.section, items: c.items.filter((i) => !i.hidden) })).filter((c) => c.items.length),
+    [allCats],
+  );
   const [query, setQuery] = useState("");
   const [activeCat, setActiveCat] = useState("");
   const [picks, setPicks] = useState<Record<string, Pick>>({});
@@ -58,23 +62,16 @@ export function MenuCatalog({ initial }: { initial: MenuSection }) {
   const railRef = useRef<HTMLDivElement>(null);
   const book = useBooking();
 
-  // Категории выбранного раздела в порядке «семей».
+  // Категории выбранного раздела, сгруппированные в «семьи».
   const families_ = useMemo(() => {
-    const cats = data.filter((c) => c.group === group);
-    const used = new Set<string>();
-    const fams = families[group]
-      .map((f) => ({
-        title: f.title,
-        cats: f.cats
-          .map((t) => cats.find((c) => c.title === t))
-          .filter((c): c is (typeof cats)[number] => !!c),
-      }))
-      .filter((f) => f.cats.length > 0);
-    fams.forEach((f) => f.cats.forEach((c) => used.add(c.title)));
-    const rest = cats.filter((c) => !used.has(c.title));
-    if (rest.length) fams.push({ title: "Другое", cats: rest });
+    const fams: { title: string; cats: typeof data }[] = [];
+    for (const c of data.filter((x) => x.group === group)) {
+      let f = fams.find((x) => x.title === c.family);
+      if (!f) fams.push((f = { title: c.family, cats: [] }));
+      f.cats.push(c);
+    }
     return fams;
-  }, [group]);
+  }, [data, group]);
 
   const q = norm(query);
   const result = useMemo(
@@ -110,7 +107,7 @@ export function MenuCatalog({ initial }: { initial: MenuSection }) {
             .reduce((n, c) => n + c.items.length, 0),
         ]),
       ) as Record<MenuSection, number>,
-    [],
+    [data],
   );
 
   const changeGroup = useCallback((id: MenuSection) => {
@@ -271,7 +268,7 @@ export function MenuCatalog({ initial }: { initial: MenuSection }) {
             className="text-link toolbar-delivery"
             target="_blank"
             rel="noreferrer"
-            href={venue.delivery}
+            href={deliveryUrl}
           >
             Заказать доставку <ArrowUpRight size={15} />
           </a>
@@ -344,7 +341,7 @@ export function MenuCatalog({ initial }: { initial: MenuSection }) {
                       <article
                         className="dish"
                         data-picked={qty > 0 || undefined}
-                        key={i.title + n}
+                        key={i.id}
                         style={{ "--n": Math.min(n, 12) } as CSSProperties}
                       >
                         {i.photo ? (
@@ -363,7 +360,6 @@ export function MenuCatalog({ initial }: { initial: MenuSection }) {
                           <h3>{i.title}</h3>
                           {i.size && <span>{i.size}</span>}
                         </div>
-                        <i className="dish-fill" aria-hidden="true" />
                         <b className="dish-price">{rub(i.price)}</b>
                         <div className="stepper" data-on={qty > 0 || undefined}>
                           {qty > 0 ? (
@@ -400,15 +396,9 @@ export function MenuCatalog({ initial }: { initial: MenuSection }) {
             ))
           )}
           <p className="catalog-source">
-            По меню ресторана в Яндекс Картах. Наличие и цены уточняйте при
-            заказе.
-            <a
-              className="text-link"
-              href={`${venue.maps}prices/`}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Источник меню <ArrowUpRight size={14} />
+            <span>{note} Меню обновлено {dateRu(updated)}.</span>
+            <a className="text-link" href={deliveryUrl} target="_blank" rel="noreferrer">
+              Заказать доставку <ArrowUpRight size={14} />
             </a>
           </p>
         </div>
@@ -518,7 +508,7 @@ export function MenuCatalog({ initial }: { initial: MenuSection }) {
           <div className="lightbox-img">
             <Image
               className="lightbox-photo"
-              src={photo.photo}
+              src={photo.photo!}
               alt={photo.title}
               fill
               sizes="90vw"

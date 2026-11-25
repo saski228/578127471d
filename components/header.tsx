@@ -6,7 +6,8 @@ import { ArrowUpRight, MapPin, Phone } from "lucide-react";
 import { Brand } from "./brand";
 import { BookingButton } from "./booking";
 import { TLink } from "./transition";
-import { venue } from "@/lib/restaurant";
+import { useSite } from "./site-context";
+import { telHref } from "@/lib/content";
 
 const nav = [
   { label: "Меню", href: "/menu", id: "menu" },
@@ -16,6 +17,7 @@ const nav = [
 ];
 
 export function Header() {
+  const { s: site } = useSite();
   const pathname = usePathname();
   const home = pathname === "/";
   const [mobile, setMobile] = useState(false);
@@ -108,9 +110,9 @@ export function Header() {
           ))}
         </nav>
         <div className="header-end">
-          <a className="header-phone" href={venue.tel}>
+          <a className="header-phone" href={telHref(site.phone)}>
             <Phone size={15} />
-            {venue.phone}
+            {site.phone}
           </a>
           <BookingButton variant="ghost" className="booking-top" />
           <button
@@ -148,11 +150,11 @@ export function Header() {
           ))}
         </nav>
         <div className="shell mnav-foot" style={{ "--i": 5 } as CSSProperties}>
-          <a href={venue.tel}>
-            <Phone size={16} /> {venue.phone}
+          <a href={telHref(site.phone)}>
+            <Phone size={16} /> {site.phone}
           </a>
-          <a href={venue.maps} target="_blank" rel="noreferrer">
-            <MapPin size={16} /> {venue.address}
+          <a href={site.mapsUrl} target="_blank" rel="noreferrer">
+            <MapPin size={16} /> {site.address}
           </a>
         </div>
       </div>
